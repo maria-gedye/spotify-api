@@ -1,5 +1,10 @@
 import React from 'react';
-const Dashboard = () => {
- return <div>Dashboard Page</div>;
-};
+import SearchForm from './SearchForm'
+const Dashboard = (props) => {
+ return (
+   <>
+    <div>Dashboard Page</div>
+    <SearchForm/>
+ </>
+ )};
 export default Dashboard;
